@@ -1,1 +1,7 @@
 
+mongoimport -db project --collection employees --file employee.json 
+mongoimport -db project --collection department --file department.json 
+mongoimport -db project --collection dept_manager --file dept_manager.json 
+mongoimport -db project --collection dept_emp --file dept_emp.json 
+mongoimport -db project --collection salaries --file salaries.json
+mongoimport -db project --collection titles --file titles.json  
